@@ -1,4 +1,6 @@
 var builder = WebApplication.CreateBuilder(args);
 var app = builder.Build();
-app.MapGet("/", () => "Hola Mundo");
+
+app.MapGet("/", () => "CI Pipeline OK - Pedidos API Refactor");
+
 app.Run();
